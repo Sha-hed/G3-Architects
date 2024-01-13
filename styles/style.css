@@ -141,6 +141,22 @@ footer {
 
 .sponsors {
     text-align: center;
+    margin-top: 100px;
+}
+
+.sponsors .st {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sponsors .st-des {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .sponsors-img-container {
@@ -154,7 +170,8 @@ footer {
 .features {
     display: flex;
     margin-top: 130px;
-    gap: 100px
+    gap: 100px;
+    margin-bottom: 100px;
 }
 
 .feature-content .card {
@@ -192,16 +209,18 @@ footer {
     background: #FFF4E7;
     text-align: center;
 }
-footer h1{
+
+footer h1 {
     padding: 40px;
-color: #424242;
-text-align: center;
-font-family: Work Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 @media screen and (max-width: 576px) {
 
     .features,
@@ -259,5 +278,21 @@ line-height: normal;
         display: flex;
         margin-top: 130px;
         gap: 100px
+    }
+    .ten-years-badge h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .ten-years-badge {
+        border-radius: 8px;
+        background: #FF900E;
+        width: 250px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        right: 100px;
+        bottom: 100px;
+        margin-left: 15px;
     }
 }
